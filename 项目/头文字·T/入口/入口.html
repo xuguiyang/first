@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>头文字·T独家呈现</title>
+    <link rel="icon" href="logo.png"/>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #ruko{
+            height: 700px;
+            /*top:20px;*/
+            background:url("01.jpg") center center;
+            background-size:1650px;
+            position:relative;
+        }
+
+        #ruko a p{
+            font-size:32px;
+            position: absolute;
+            left:602px;
+            top:505px;
+            color:#fff;
+            display:none;
+        }
+        #ruko a p:hover{
+            color:#a98251;
+        }
+        #ruko .mo{
+            height: 700px;
+            background-color:#000000;
+            opacity:0.3;
+            display:none;
+        }
+    </style>
+    <script src="jquery-1.12.4.min.js"></script>
+    <script>
+
+        $(function(){
+            $("#ruko").mouseenter(function(){
+                $(".mo").stop().fadeIn().next().children().stop().fadeIn(2500)
+            })
+            $("#ruko").mouseleave(function(){
+                $(".mo").stop().fadeOut().next().children().stop().fadeOut()
+            })
+            $("p").mouseenter(function(){
+                $(".mo").stop().fadeOut(1000)
+            })
+            $("p").mouseleave(function(){
+                $(".mo").stop().fadeIn()
+            })
+        })
+    </script>
+</head>
+<body>
+<div id="ruko">
+    <div class="mo">
+
+    </div>
+    <a href="../主页/头文字·T主页.html">
+        <p>进入主页</p>
+    </a>
+</div>
+</body>
+</html>

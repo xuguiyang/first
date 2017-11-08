@@ -1,0 +1,57 @@
+
+/*开始*/
+#zgx {
+    height: 878px;
+    /*background-color: pink;*/
+}
+/*客照分享*/
+#zgx .Ztop img{
+    margin-top: 30px;
+    margin-bottom: 18px;
+}
+/*客照分享中心上*/
+#zgx .ZconS ul li{
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 9px;
+}
+#zgx .ZconS ul li.one  {
+    float: right;
+}
+/*客照分享中心下*/
+#zgx .ZconS ul li.two {
+    width: 357px;
+    height:485px;
+    overflow: hidden;
+    font-size:0;
+}
+#zgx .ZconS ul li.three{
+    width: 340px;
+    height: 238px;
+    overflow: hidden;
+    font-size:0;
+}
+/*客照分享中心下*/
+#zgx .ZconX ul li {
+    float: left;
+    margin-right: 9px;
+    overflow: hidden;
+}
+#zgx .ZconX ul li.four {
+    width:355px;
+    height:241px;
+    overflow: hidden;
+    font-size:0;
+}
+#zgx .ZconX ul li.five {
+    width:342px;
+    height:241px;
+    overflow: hidden;
+    font-size:0;
+}
+#zgx .ZconX ul li:last-child{
+    margin-right: 0;
+}
+
+
+/*结束*/

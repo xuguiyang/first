@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>嗨</title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <!--<link rel="stylesheet" href="css/jiegou.css"/>-->
+    <script src="jquery-1.12.4.js"></script>
+    <script type="text/javascript">
+        $(document).ready(
+                function(){
+                    $(window).scroll(
+                            function(){
+                                var A = $(window).scrollTop();
+                                if(A >2500){
+                                    $(".changjing").addClass("cur");
+                                }else{
+                                    $(".changjing").removeClass("cur");
+                                }
+                            }
+                    );
+                }
+        );
+    </script>
+
+</head>
+<body>
+
+<!--随机图片-->
+<div id="xtw">
+    <div class="xywdq">
+        <a href="#"><img src="images/一吻定情.png" alt=""/></a>
+    </div>
+    <div class="xcsbw">
+        <a href="#"><img src="images/此生不换.png" alt=""/></a>
+    </div>
+</div>
+<!--五个跳出图片-->
+<div id="xgytt">
+    <div class="changjing">
+        <img class="no1" src="images/205-1.png" alt="">
+        <img class="no10" src="images/tang.png" alt="">
+        <img class="no2" src="images/206-1.png" alt="">
+        <img class="no20" src="images/xu.png" alt="">
+        <img class="no3" src="images/207-1.png" alt="">
+        <img class="no30" src="images/zhong.png" alt="">
+        <img class="no4" src="images/208-1.png" alt="">
+        <img class="no40" src="images/li.png" alt="">
+        <img class="no5" src="images/209-1.png" alt="">
+        <img class="no50" src="images/quan.png" alt="">
+    </div>
+</div>
+</body>
+</html>

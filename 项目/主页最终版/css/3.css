@@ -1,0 +1,30 @@
+
+#xgy {
+    height: 590px;
+    background-color:black;
+overflow:hidden;
+}
+#xgy>.beijing{
+    height: 110px;
+    background-color: #ffffff;
+}
+
+#xgy>.beijing .wenzi img{
+    /*display: inline-block;*/
+    /*padding-top: 30px;*/
+    /*padding-bottom: 18px;*/
+    margin-top: 30px;
+    margin-bottom: 18px;
+
+}
+#xgy>.xzxzt>ul>li img{
+    width: 337.2px;
+    height: 480px;
+
+}
+#xgy>.xzxzt>ul>li{
+    float: left;
+}
+/*#xgy>.xzxzt>ul>li img {*/
+    /*margin-right:0.3px;*/
+/*}*/

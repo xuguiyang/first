@@ -1,0 +1,342 @@
+/*------------头部导航-----------------------------------------------*/
+/*body{
+    background-image:linear-gradient(to top,pink 20%,
+                skyblue 40%,green 60%,yellow 80%,purple 100%);
+
+}*/
+#qhr {
+    height: 178px;
+    /*background-color:#9e9e9e;*/
+    background: url("../qhr-images/bjt.jpg");
+    background-size: cover;
+}
+
+#qhr .top {
+    height: 110px;
+}
+
+#qhr .top .logo {
+    padding: 10px;
+    width: 762px;
+    height: 70px;
+    float: left;
+    background-repeat: no-repeat;
+}
+
+#qhr .top .logo img {
+    width: 270px;
+    height: 120px;
+}
+
+#qhr .top .rili {
+    width: 58px;
+    height: 62px;
+    background-color: #fff;
+
+}
+
+#qhr .top .rili {
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+    float: right;
+    box-shadow: 1px 1px 1px 1px #9e9e9e;
+}
+
+#qhr .top .rili p:first-child {
+    background-color: #a98251;
+    width: 58px;
+    height: 16px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 10px 10px 0px 0px;
+    line-height: 16px;
+}
+
+#qhr .top .rili p:last-child {
+    color: #a98251;
+    font-size: 23px;
+    line-height: 42px;
+    height: 42px;
+    width: 58px;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+#qhr .top .tell {
+    padding-top: 20px;
+    padding-left: 15px;
+    width: 175px;
+    float: right;
+    height: 62px;
+    text-align: center;
+
+}
+
+#qhr .top .tell p {
+    color: #9e9e9e;
+    font-size: 23px;
+    display-inside: block;
+    margin-bottom: 10px;
+}
+
+#qhr .top .tell .tellb {
+    text-align: center;
+    width: 175px;
+    height: 33px;
+    background-color: #a98251;
+}
+
+#qhr .top .tell .tellb a {
+    line-height: 33px;
+    color: #fff;
+    font-size: 14px;
+}
+
+#qhr .bottom-right {
+    height: 78px;
+}
+
+/*-------精彩样照部分 --------------------*/
+#qhr .bottom-right > ul > li > ul {
+    display: none;
+}
+
+#qhr .bottom-right ul .jcyz {
+    height: 70px;
+    width: 240px;
+    background-color: #a98251;
+}
+
+#qhr .bottom-right ul .jcyz > a {
+    color: #fff;
+    line-height: 70px;
+    font-size: 18px;
+}
+
+#qhr .bottom-right ul .jcyz > ul {
+    background-color: #000;
+}
+
+#qhr .bottom-right ul .jcyz > ul > li {
+    height: 61px;
+    text-align: center;
+    border-bottom: 1px solid #9e9e9e;
+}
+
+#qhr .bottom-right ul .jcyz > ul > li > a {
+    font-size: 20px;
+    color: #fff;
+    line-height: 70px;
+}
+
+#qhr .bottom-right ul .jcyz > ul > li > a:hover {
+    color: #a98251;
+}
+
+/*-------------导航分类部分------------------*/
+#qhr .bottom-right ul li {
+    text-align: center;
+}
+
+#qhr .bottom-right > ul > li {
+    text-alige: center;
+    width: 98px;
+    float: left;
+}
+
+#qhr .bottom-right ul li + li a {
+    funt-size: 20px;
+}
+
+#qhr .bottom-right ul li + li {
+    padding-top: 10px;
+
+}
+#qhr .bottom-right ul li + li:hover > a > p {
+    color: #fff;
+}
+#qhr .bottom-right > ul > li + li a:hover {
+    color: #a98251;
+}
+#qhr .bottom-right > ul > li + li p:hover {
+    color: #a98251;
+}
+
+/*-----------------------头部导航结束---------------------------------------------------------------------*/
+/*----------------------------------------*/
+/*
+
+/*第一排*/
+#zgx {
+    height: 750px;
+}
+#zgx .ztoper {
+    width: 266px;
+    height: 370px;
+    position: relative;
+    float: left;
+    margin-right: 2px;
+    margin-bottom: 8px;
+    margin-top: 30px;
+}
+
+#zgx .xixi img {
+    width: 266px;
+    height: 370px;
+}
+
+#zgx .ztoper .xixi {
+    width: 266px;
+    height: 370px;
+    background: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.7;
+    left: 0;
+    display: none;
+}
+/*第二排*/
+#zgx .boxtop {
+    width: 266px;
+    height: 370px;
+    position: relative;
+    float: left;
+    margin-right: 2px;
+    margin-bottom: 7px;
+}
+#zgx .boxtop .xixi {
+    width: 266px;
+    height: 370px;
+    background: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+    left: 0;
+    display: none;
+}
+/*镂空图  部分*/
+#gx{
+
+}
+/*------------------底部----------------------------*/
+#qhr1 {
+    height: 666px;
+    /*background-color: cornflowerblue;*/
+}
+#qhr1 .top {
+    height: 178px;
+    border-top: 1px solid white;
+}
+#qhr1 .cr {
+    height: 272px;
+    /*background-color: #926225;*/
+    float: left;
+}
+#qhr1 .cr .cr-t {
+    height: 224px;
+}
+#qhr1 .cr .cr-t .logo-bm img {
+    width: 237px;
+    height: 137px;
+}
+
+#qhr1 .cr .cr-t .logo-bm {
+    padding-top: 48px;
+    width: 251px;
+
+}
+
+#qhr1 .cr .cr-t .ewm {
+    padding-top: 48px;
+    width: 209px;
+
+}
+
+#qhr1 .cr .cr-t div {
+    float: left;
+}
+
+#qhr1 .cr .cr-t .cr-r dl {
+    padding-top: 30px;
+    padding-left: 10px;
+    float: left;
+}
+
+#qhr1 .cr .cr-t .cr-r dl dt a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+
+}
+
+#qhr1 .cr .cr-t .cr-r dl dt {
+    text-align: right;
+    width: 140px;
+    height: 30px;
+    background-color: #a98251;
+}
+
+#qhr1 .cr .cr-t .cr-r dl dd {
+    text-align: right;
+    height: 30px;
+    border-bottom: 1px solid #a98251;
+}
+
+#qhr1 .cr .cr-t .cr-r dl dd a {
+    font-size: 14px;
+    color: #fff;
+    line-height: 30px;
+}
+
+#qhr1 .cr .cr-b > .x {
+    color: #9e9e9e;
+}
+
+#qhr1 .cr .cr-b > p {
+    float: left;
+    padding-left: 50px;
+}
+
+#qhr1 .cr .cr-b > p > a {
+    color: #eeeeee;
+    font-size: 14px;
+}
+
+#qhr1 .bmcolor .b1 {
+    height: 272px;
+    /*background-color: #997848;*/
+}
+
+#qhr1 .bmcolor .b2 {
+    height: 160px;
+    background-color: #262623;
+}
+
+#qhr1 .bmcolor .b2 .bc {
+    padding-top: 10px;
+}
+
+#qhr1 .bmcolor .b2 .xian {
+    margin-top: 10px;
+    border-bottom: 2px solid #fff;
+}
+
+#qhr1 .bmcolor .b2 p a {
+    color: #eeeeee;
+    font-size: 14px;
+}
+
+#qhr1 .bmcolor .b2 p {
+    padding-top: 13px;
+    text-align: center;
+}
+#qhr1 .bmcolor .b3 {
+    height: 62px;
+    background-color: #997848;
+}
+
+/*---------------------------底部结束---------------------------------------------------------------------*/

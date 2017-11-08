@@ -1,0 +1,33 @@
+body{
+    background-color: #1a1a1a;
+}
+#xgy{
+    position: relative;
+    width: 1334px;
+    margin-bottom: 35px;
+}
+#zxhd{
+    position: absolute;
+    top: 0;
+    right:10px;
+}
+#zxhd .hd{
+    width: 581px;
+    float: right;
+}
+#zxhd .hd .tp{
+    position: relative;
+    width: 290px;
+    height: 245px;
+    float: right;
+    background-color: #1a1a1a;
+}
+#zxhd .hd .tp .logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 290px;
+    height: 245px;
+    display: none;
+    overflow:hidden;
+}

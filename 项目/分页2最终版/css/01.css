@@ -1,0 +1,56 @@
+.lunbo{
+    position: relative;
+    height: 524px;
+    margin-bottom: -10px;
+    opacity: 0.9;
+    /*border-top: 10px solid burlywood;*/
+    border-top: 8px solid #cebdb0;
+    border-bottom: 8px solid #cebdb0;
+}
+.lunbo ul{
+    list-style: none;
+}
+.lunbo ul li{
+    width: 100%;
+    height: 524px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.lunbo ul li a{
+    display: block;
+    width: 100%;
+    height: 524px;
+}
+.lunbo ul li.no0{
+    display: block;
+    background:rgb(7, 5, 18) url(../images/101.jpg) no-repeat center center;
+    /*background-size: 1080px;*/
+
+}
+.lunbo ul li.no1{
+    background:rgb(0, 0, 0) url(../images/102.jpg) no-repeat center center;
+    /*background-size: 1686px 800px;*/
+    /*background-size: 1080px;*/
+}
+.lunbo ul li.no2{
+    background:rgb(67, 163, 249) url(../images/103.jpg) no-repeat center center;
+    /*background-size: 1080px;*/
+}
+.lunbo ul li.no3{
+    background:rgb(3, 3, 5) url(../images/104.jpg) no-repeat center center;
+    /*background-size: 1080px;*/
+}.lunbo ul li.no4{
+    background:rgb(3, 3, 5) url(../images/105.jpg) no-repeat center center;
+    /*background-size: 1080px;*/
+}
+
+/*---------------主题图片部分-----------------*/
+#zxzt .banxin {
+    height: 70px;
+    margin: 0 auto;
+}
+#zxzt .banxin img {
+    margin-left: 28px;
+}

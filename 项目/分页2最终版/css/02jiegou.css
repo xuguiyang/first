@@ -1,0 +1,193 @@
+/*------------头部导航-----------------------------------------------*/
+
+#fydh {
+    height: 206px;
+    /*background-color:#9e9e9e;*/
+    /*background:url("../images/logo3.png") ;*/
+
+    /*background-size: 1080px;;*/
+    /*background-color: #9e9e9e;*/
+
+}
+
+#fydh .top {
+    height: 146px;
+}
+
+#fydh .top img {
+    width: 1080px;
+}
+#fydh .bottom-right {
+    height: 60px;
+    line-height: 60px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+#Menu {
+    width:1080px;
+    /*margin:50px auto;*/
+    /*border:1px solid #CCC;*/
+    overflow:hidden;
+}
+#Menu ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+#Menu li {
+    width:120px;
+    height:60px;
+    line-height:83px;
+    float:left;
+    overflow:hidden;
+    text-align:center;
+}
+#Menu a {
+    width:100px;
+    float:left;
+    overflow:hidden;
+    font-size: 18px;
+    color: #ffffff;
+}
+#Menu span {
+    display:block;
+    margin-top:-100px;
+    font-size: 16px;
+    color: coral;
+}
+#Menu a:hover {
+    padding-top:83px;
+
+}
+
+/*-------精彩样照部分 --------------------*/
+
+/*-----------------------头部导航结束---------------------------------------------------------------------*/
+/*----------------------------------------*/
+
+/*------------------底部----------------------------*/
+#qhr1 {
+    height: 666px;
+    /*background-color: cornflowerblue;*/
+}
+
+#qhr1 .top {
+    height: 178px;
+    border-top: 1px solid #ffffff;
+}
+
+#qhr1 .cr {
+    height: 272px;
+    background-color: #997848;
+    float: left;
+
+}
+
+#qhr1 .cr .cr-t {
+
+    height: 224px;
+}
+
+#qhr1 .cr .cr-t .logo-bm img {
+    width: 237px;
+    height: 137px;
+}
+
+#qhr1 .cr .cr-t .logo-bm {
+    padding-top: 48px;
+    width: 251px;
+
+}
+
+#qhr1 .cr .cr-t .ewm {
+    padding-top: 48px;
+    width: 209px;
+
+}
+
+#qhr1 .cr .cr-t div {
+    float: left;
+}
+
+#qhr1 .cr .cr-t .cr-r dl {
+    padding-top: 30px;
+    padding-left: 10px;
+    float: left;
+}
+
+#qhr1 .cr .cr-t .cr-r dl dt a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+
+}
+
+#qhr1 .cr .cr-t .cr-r dl dt {
+    text-align: right;
+    width: 140px;
+    height: 30px;
+    background-color: #a98251;
+}
+
+#qhr1 .cr .cr-t .cr-r dl dd {
+    text-align: right;
+    height: 30px;
+    border-bottom: 1px solid #a98251;
+}
+
+#qhr1 .cr .cr-t .cr-r dl dd a {
+    font-size: 14px;
+    color: #fff;
+    line-height: 30px;
+}
+
+#qhr1 .cr .cr-b > .x {
+    color: #9e9e9e;
+}
+
+#qhr1 .cr .cr-b > p {
+    float: left;
+    padding-left: 50px;
+}
+
+#qhr1 .cr .cr-b > p > a {
+    color: #eeeeee;
+    font-size: 14px;
+}
+
+#qhr1 .bmcolor .b1 {
+    height: 272px;
+    background-color: #997848;
+}
+
+#qhr1 .bmcolor .b2 {
+    height: 160px;
+    background-color: #262623;
+}
+
+#qhr1 .bmcolor .b2 .bc {
+    padding-top: 10px;
+}
+
+#qhr1 .bmcolor .b2 .xian {
+    margin-top: 10px;
+    border-bottom: 2px solid #fff;
+}
+
+#qhr1 .bmcolor .b2 p a {
+    color: #eeeeee;
+    font-size: 14px;
+
+}
+
+#qhr1 .bmcolor .b2 p {
+    padding-top: 13px;
+    text-align: center;
+}
+
+#qhr1 .bmcolor .b3 {
+    height: 62px;
+    background-color: #997848;
+}
+
+/*---------------------------底部结束---------------------------------------------------------------------*/

@@ -1,0 +1,111 @@
+
+#lpy {
+    height: 710px;
+    overflow: hidden;
+    position: relative;
+
+
+}
+#lpy .banxin .biaoti {
+    height: 84px;
+    padding-top: 16px;
+}
+/*------------第四部分   start*/
+#lpy .lunbo {
+    height: 610px;
+    /*overflow: hidden;*/
+    position: relative;
+
+}
+#lpy .lunbo ul {
+    position: absolute;
+    top: 0px;
+    width: 9000px;
+    left: 0;
+    /*overflow: hidden;*/
+}
+#lpy .lunbo ul li {
+    float: left;
+    height: 610px;
+    overflow: hidden;
+
+}
+#lpy .lunbo ul li a img {
+    height: 783px;
+    /*width: 1380px;*/
+
+}
+#lpy .lunbo ol {
+    height: 710px;
+    position: absolute;
+    top: 0px;
+    left: 230px;
+    /*overflow:hidden;*/
+
+}
+#lpy .lunbo ol li {
+    width: 220px;
+    height: 610px;
+    float: left;
+    box-sizing: border-box;
+    padding:0 16px;
+    cursor: pointer;
+    padding-top: 346px;
+    /*padding-bottom: 12px;*/
+    /*padding-left: 0px;*/
+    border-bottom: 8px solid #87d4ef;
+}
+#lpy .lunbo ol li p {
+    color: #ffffff;
+    font-size: 16px;
+
+    font-weight: 500;
+    font-family: \5FAE\8F6F\96C5\9ED1;
+}
+#lpy .lunbo ol li p span {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: \6977\4F53;
+}
+#lpy .lunbo ol li p i {
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+/*-------------第四部分   end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

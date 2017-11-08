@@ -1,0 +1,118 @@
+
+
+#xtw.banxin{
+    overflow: hidden;
+}
+#xtw img{
+    width: 1360px;
+
+}
+body{
+    background-color: #262623;
+}
+
+
+/*五个跳出图片*/
+#xgytt{
+    height: 600px;
+}
+.changjing{
+
+    /*margin: auto;*/
+    /*border: 1px solid #000;*/
+    position: relative;
+
+}
+
+.changjing img{
+    position: absolute;
+    /*默认图片都是透明的*/
+    opacity: 0;
+    width: 150px;
+    height: 164px;
+}
+.changjing.cur img{
+    *opacity: 1;  	/*8*/
+    _opacity: 1;	/*7*/
++opacity: 1;	/*8*/
+}
+.changjing img.no1{
+    top: 100px;
+    left:115px;
+}
+.changjing img.no10{
+    top: 300px;
+    left:115px;
+}
+.changjing img.no2{
+    top: 200px;
+    left: 360px;
+}
+.changjing img.no20{
+    top: 400px;
+    left:360px;
+}
+.changjing img.no3{
+    top: 100px;
+    left: 605px;
+}
+.changjing img.no30{
+    top: 300px;
+    left: 605px;
+}
+.changjing img.no4{
+    top: 200px;
+    left: 850px;
+
+}
+.changjing img.no40{
+    top: 400px;
+    left: 850px;
+
+}
+.changjing img.no5{
+    top: 100px;
+    left: 1095px;
+}
+.changjing img.no50{
+    top: 300px;
+    left: 1095px;
+}
+.changjing.cur img.no1{
+    -webkit-animation:xianshi 1s ease 0s forwards;
+}
+.changjing.cur img.no10{
+    -webkit-animation:xianshi 1s ease 0.8s forwards;
+}
+.changjing.cur img.no2{
+    -webkit-animation:xianshi 1s ease 1.6s forwards;
+}
+.changjing.cur img.no20{
+    -webkit-animation:xianshi 1s ease 2.4s forwards;
+}
+.changjing.cur img.no3{
+    -webkit-animation:xianshi 1s ease 3.2s forwards;
+}
+.changjing.cur img.no30{
+    -webkit-animation:xianshi 1s ease 4.0s forwards;
+}
+.changjing.cur img.no4{
+    -webkit-animation:xianshi 1s ease 4.8s forwards;
+}
+.changjing.cur img.no40{
+    -webkit-animation:xianshi 1s ease 5.6s forwards;
+}
+.changjing.cur img.no5{
+    -webkit-animation:xianshi 1s ease 6.2s forwards;
+}
+.changjing.cur img.no50{
+    -webkit-animation:xianshi 1s ease 7.0s forwards;
+}
+@-webkit-keyframes xianshi {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

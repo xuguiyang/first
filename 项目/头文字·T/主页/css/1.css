@@ -1,0 +1,93 @@
+
+/*¿ªÊ¼*/
+#Tdbox {
+    height: 485px;
+    background-color: skyblue;
+overflow:hidden;
+cursor:pointer;
+
+}
+
+ * {
+     padding: 0;
+     margin: 0;
+     list-style: none;
+     border: 0;
+ }
+
+#Tdbox {
+    width: 1380px;
+    height: 485px;
+    position: relative;
+}
+
+#Tbox {
+    width: 1380px;
+    height: 485px;
+    overflow: hidden;
+    position: relative;
+}
+
+#Tbox > ul > li {
+    width: 1380px;
+    height: 485px;
+    overflow: hidden;
+    float: left;
+}
+
+#Tbox > ul {
+    width: 8280px;
+    position: absolute;
+}
+
+#Tbox > ol {
+    position: absolute;
+    right: 50%;
+    margin-right: -62px;
+    bottom: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+#Tbox > ol > li {
+    float: left;
+    width: 15px;
+    height: 15px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#Tbox > ol > li.Tcurrent {
+    background-color: mediumorchid;
+}
+
+#Tanniu {
+    display: none;
+}
+
+#Tanniu > span {
+    width: 75px;
+    height: 75px;
+}
+
+#Tanniu > #Tleft {
+    position: absolute;
+    left: 100px;
+    bottom: 50%;
+    margin-bottom: -37px;
+    background-image: url("../images/20005.png");
+
+}
+
+#Tanniu > #Tright {
+    position: absolute;
+    right: 100px;
+    bottom: 50%;
+    margin-bottom: -37px;
+    background: url("../images/20006.png") right center;
+}
+/*½áÊø*/
+
+
